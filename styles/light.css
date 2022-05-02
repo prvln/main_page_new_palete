@@ -1,0 +1,49 @@
+
+
+body, html{
+    width: 100%;
+    height: 100%;
+
+}
+
+body{
+    margin: 0px;
+    font-family: montserrat;
+}
+
+.vegaNavbar{
+    background-color: #212529;
+}
+
+.vegaLine{
+    background-color: #f8f9fa;
+    
+}
+
+.nav-link{
+    font-size: small;  
+    color: #8d959a;
+}
+
+.nav-link:hover{
+    color: #55FF33 !important;
+}
+
+h1{
+    color: #55FF33 !important;
+}
+
+.footer-title{
+    color: white;
+}
+
+p{
+    color: black;
+}
+
+/*для маленького*/
+@media screen and (max-width: 767px) {
+    a{
+        font-size: 16px !important;
+    }
+}
