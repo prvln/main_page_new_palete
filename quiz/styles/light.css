@@ -31,6 +31,14 @@ body{
 
 h1{
     color: #55FF33 !important;
+    font-size: 300% !important;
+}
+
+
+.answer-variant:hover{
+    background-color: #55FF33;
+    color: black;
+
 }
 
 .footer-title{
@@ -39,46 +47,6 @@ h1{
 
 p{
     color: black;
-}
-
-button{
-    text-align: left;
-    background-color: white;
-    border: 0;
-}
-
-.btn-secondary{
-    background-color: #55b5db;
-}
-
-.btn-secondary:hover{
-    background-color: #55FF33;
-}
-
-
-.btn-outline-light{
-    background-color: #f8f9fa;
-    color: #212529;
-}
-
-.btn-outline-light:hover{
-    background-color: #55FF33;
-}
-
-.question:hover{
-    color: #dc3545 !important;
-}
-
-.blue{
-    color: #55b5db;
-}
-
-.red{
-    color: #dc3545;
-}
-
-.violet{
-    color: #a074c4;
 }
 
 /*для маленького*/

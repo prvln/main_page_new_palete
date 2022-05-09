@@ -23,6 +23,12 @@ body{
     
 }
 
+.answer-variant:hover{
+    background-color: #55FF33;
+    color: black;
+
+}
+
 .nav-link{
     font-size: small;  
     color: #8d959a;
@@ -71,32 +77,6 @@ h5{
 
 p{
     color: #8d959a;
-}
-
-button{
-    text-align: left;
-    background-color: #212529;
-    border: 0;
-}
-
-.btn-secondary{
-    background-color: #55b5db;
-}
-
-.question:hover{
-    color: #55FF33 !important;
-}
-
-.blue{
-    color: #55b5db;
-}
-
-.red{
-    color: #dc3545;
-}
-
-.violet{
-    color: #a074c4;
 }
 
 /*для маленького*/
