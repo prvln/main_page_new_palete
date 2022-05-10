@@ -81,9 +81,44 @@ button{
     color: #a074c4;
 }
 
+.projects{
+    background-color: #FFEAE9;
+    height: 90px;  
+}
+
+.vmath{
+    background-color: #DBE8FF;
+    height: 90px; 
+}
+
+.prof{
+    background-color:#F4DCFF;
+    height: 90px;
+}
+
+.other{
+    background-color: #C1FFE9;
+    height: 90px;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+
 /*для маленького*/
 @media screen and (max-width: 767px) {
     a{
         font-size: 16px !important;
     }
 }
+
