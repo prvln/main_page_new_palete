@@ -49,7 +49,7 @@ window.onload = function(){
         let key = Object.keys(result).reduce(function(a, b){
             return result[a] > result[b] ? a : b;
         });
-        console.log(key);
+        //console.log(key);
 
         let div = document.createElement('p');
         div.classList.add('result');

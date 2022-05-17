@@ -15,8 +15,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <script src="js/modalWindow.js"></script>
+
     <link rel="stylesheet" href="styles/light.css">
+
 </head>
 
 <body>
@@ -97,10 +98,10 @@
             
             <div class="col-lg-3 col-md-6">
                 <div class="d-flex">
-                    <h2 class="mr-4">1 год</h2>
+                    <a href="#first-year"><h2 class="mr-4">1 год</h2></a>
                     <div class="d-flex flex-column">
-                        <p>1 семестр</p>
-                        <p>2 семестр</p>
+                        <a href="#first-sem"><p>1 семестр</p></a>
+                        <a href="#second-sem"><p>2 семестр</p></a>
                     </div>
                 </div>
             </div>
@@ -137,22 +138,14 @@
             <hr class="featurette-divider">
         
             
-            <h2>1 год</h2>
-            <p>1 семестр</p>
+            <h2 id="first-year">1 год</h2>
+            <p id="first-sem">1 семестр</p>
             <div class="col-xl-3 col-md-6">
                 <div class="d-flex flex-column">
-                    <p>Информационные технологии</p>
+                    <h5>Информационные технологии</h5>
                     <div>
-                        <a href="">
-                           <div class="prof d-flex align-content-center mb-3 p-3">
-                           Введение в разработку программного обеспечения
-                        </div> 
-                        </a>
-                        
-                        <div class="prof d-flex align-content-center mb-3 p-3">
-                            Программирование в задачах радиолокации
-                        </div>
-
+                        <button data-toggle="Modal-1" class="prof show-Modal-1">Введение в разработку программного обеспечения<br><small class="text-muted">Зачет</small></button> 
+                        <button data-toggle="Modal-2" class="prof show-Modal-2">Программирование в задачах радиолокации<br><small class="text-muted">Зачет</small></button> 
                     </div>
                 </div>
             </div>
@@ -161,35 +154,20 @@
                 <div class="d-flex flex-column">
                     <h5>Высшая математика</h5>
                     <div>
-                        <div class="vmath d-flex align-content-center mb-3 p-3">
-                            Алгебра и геометрия
-                        </div>
-                        <div class="vmath d-flex align-content-center mb-3 p-3">
-                            Дискретная математика
-                        </div>
-                        <div class="vmath d-flex align-content-center mb-3 p-3">
-                            Математический анализ
-                        </div>
-                        <div class="vmath d-flex align-content-center mb-3 p-3">
-                            Методы математического анализа
-                        </div>
+                        <button data-toggle="Modal-3" class="vmath show-Modal-3">Алгебра и геометрия<br><small class="text-muted">Экзамен</small></button>
+                        <button data-toggle="Modal-4" class="vmath show-Modal-4">Дискретная математика<br><small class="text-muted">Экзамен</small></button>
+                        <button data-toggle="Modal-5" class="vmath show-Modal-5">Математический анализ<br><small class="text-muted">Экзамен</small></button>
+                        <button data-toggle="Modal-6" class="vmath show-Modal-6">Методы математического анализа<br><small class="text-muted">Зачет</small></button>
                     </div>
                 </div>
             </div>
-
             <div class="col-xl-3 col-md-6">
                 <div class="d-flex flex-column">
                     <h5>Общепрофессиональные</h5>
                     <div>
-                        <div class="other d-flex align-content-center mb-3 p-3">
-                            История
-                        </div>
-                        <div class="other d-flex align-content-center mb-3 p-3">
-                            Иностранный язык
-                        </div>
-                        <div class="other d-flex align-content-center mb-3 p-3">
-                            Физическая культура и спорт
-                        </div>
+                        <button data-toggle="Modal-7" class="otherDIS show-Modal-7">История<br><small class="text-muted">Экзамен</small></button>
+                        <button data-toggle="Modal-8" class="otherDIS show-Modal-8">Иностранный язык<br><small class="text-muted">Зачет</small></button>
+                        <button data-toggle="Modal-9" class="otherDIS show-Modal-9">Физическая культура и спорт<br><small class="text-muted">Зачет</small></button>
                 
                     </div>
 
@@ -200,25 +178,19 @@
                 <div class="d-flex flex-column">
                     <h5>Проекты</h5>
                     <div >
-                        <div class="projects d-flex align-content-center mb-3 p-3">
-                            Введение в профессиональную деятельность
-                        </div>
+                        <button data-toggle="Modal-" class="projects">Введение в профессиональную деятельность<br><small class="text-muted">Зачет</small></button>
                     </div>
 
                 </div>
             </div>
             
-            <p>2 семестр</p>
+            <p id="second-sem">2 семестр</p>
             <div class="col-xl-3 col-md-6">
                 <div class="d-flex flex-column">
                     <h5>Информационные технологии</h5>
                     <div>
-                        <div class="prof d-flex align-content-center mb-3 p-3">
-                            Методы и стандарты программирования
-                        </div>
-                        <div class="prof d-flex align-content-center mb-3 p-3">
-                            Программирование в задачах радиолокации
-                        </div>
+                        <button data-toggle="Modal-10" class="prof show-Modal-2">Методы и стандарты программирования<br><small class="text-muted">Экзамен</small></button>
+                        <button data-toggle="Modal-2" class="prof show-Modal-2">Программирование в задачах радиолокации<br><small class="text-muted">Экзамен</small></button> 
 
                     </div>
                 </div>
@@ -228,18 +200,10 @@
                 <div class="d-flex flex-column">
                     <h5>Высшая математика</h5>
                     <div>
-                        <div class="vmath d-flex align-content-center mb-3 p-3">
-                            Алгебра и геометрия
-                        </div>
-                        <div class="vmath d-flex align-content-center mb-3 p-3">
-                            Дискретная математика
-                        </div>
-                        <div class="vmath d-flex align-content-center mb-3 p-3">
-                            Математический анализ
-                        </div>
-                        <div class="vmath d-flex align-content-center mb-3 p-3">
-                            Методы математического анализа
-                        </div>
+                        <button data-toggle="Modal-3" class="vmath show-Modal-3"> Алгебра и геометрия<br><small class="text-muted">Экзамен</small></button>
+                        <button data-toggle="Modal-4" class="vmath show-Modal-4">Дискретная математика<br><small class="text-muted">Экзамен</small></button>
+                        <button data-toggle="Modal-5" class="vmath show-Modal-5">Математический анализ<br><small class="text-muted">Экзамен</small></button>
+                        <button data-toggle="Modal-6" class="vmath show-Modal-6">Методы математического анализа<br><small class="text-muted">Зачет</small></button>
                     </div>
                 </div>
             </div>
@@ -248,15 +212,9 @@
                 <div class="d-flex flex-column">
                     <h5>Общепрофессиональные</h5>
                     <div>
-                        <div class="other d-flex align-content-center mb-3 p-3">
-                            Правоведение
-                        </div>
-                        <div class="other d-flex align-content-center mb-3 p-3">
-                            Иностранный язык
-                        </div>
-                        <div class="other d-flex align-content-center mb-3 p-3">
-                            Физическая культура и спорт
-                        </div>
+                        <button data-toggle="Modal-11" class="otherDIS show-Modal-11">Правоведение<br><small class="text-muted">Зачет</small></button>
+                        <button data-toggle="Modal-8" class="otherDIS show-Modal-8">Иностранный язык<br><small class="text-muted">Зачет</small></button>
+                        <button data-toggle="Modal-9" class="otherDIS show-Modal-9">Физическая культура и спорт<br><small class="text-muted">Зачет</small></button>
                 
                     </div>
 
@@ -267,23 +225,109 @@
                 <div class="d-flex flex-column">
                     <h5>Проекты</h5>
                     <div >
-                        <div class="projects d-flex align-content-center mb-3 p-3">
-                            Научно-исследовательская работа
-                        </div>
+                        <button data-toggle="Modal-12" class="projects show-Modal-12">Научно-исследовательская работа<br><small class="text-muted">Зачет-д</small></button>
+                    </div>
+                </div>
+            </div>
+
+            <h2 id="first-year">2 год</h2>
+            <p id="first-sem">3 семестр</p>
+            <div class="col-xl-3 col-md-6">
+                <div class="d-flex flex-column">
+                    <h5>Информационные технологии</h5>
+                    <div>
+                        <button data-toggle="Modal-10" class="prof show-Modal-2">Методы и стандарты программирования<br><small class="text-muted">Зачет</small></button>
+                        <button data-toggle="Modal-" class="prof show-Modal-">Базы данных в радиолокационных системах<br><small class="text-muted">Зачет</small></button> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6">
+                <div class="d-flex flex-column">
+                    <h5>Высшая математика</h5>
+                    <div>
+                        <button data-toggle="Modal-3" class="vmath show-Modal-3"> Алгебра и геометрия<br><small class="text-muted">Экзамен</small></button>
+                        <button data-toggle="Modal-4" class="vmath show-Modal-4">Дискретная математика<br><small class="text-muted">Экзамен</small></button>
+                        <button data-toggle="Modal-5" class="vmath show-Modal-5">Математический анализ<br><small class="text-muted">Зачет</small></button>
+                        <button data-toggle="Modal-6" class="vmath show-Modal-6">Методы математического анализа<br><small class="text-muted">Экзамен</small></button>
+                        <button data-toggle="Modal-" class="vmath show-Modal-">Дифференциальная геометрия<br><small class="text-muted">Экзамен</small></button>
+                        <button data-toggle="Modal-" class="vmath show-Modal-">Дифференциальные уравнения<br><small class="text-muted">Экзамен</small></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="d-flex flex-column">
+                    <h5>Общепрофессиональные</h5>
+                    <div>
+                        <button data-toggle="Modal-" class="otherDIS show-Modal-">Экономическая культура<br><small class="text-muted">Зачет</small></button>
+                        <button data-toggle="Modal-8" class="otherDIS show-Modal-8">Иностранный язык<br><small class="text-muted">Зачет</small></button>
+                        <button data-toggle="Modal-9" class="otherDIS show-Modal-9">Физическая культура и спорт<br><small class="text-muted">Зачет</small></button>
+                
                     </div>
 
                 </div>
             </div>
 
+            <div class="col-xl-3 col-md-6">
+                <div class="d-flex flex-column">
+                    <h5>Проекты</h5>
+                    <div >
+                        <button class="projects">Методы и стандарты программирования<br><small class="text-muted">к/р</small></button>
+                    </div>
+
+                </div>
+            </div>
+            
+            <p id="second-sem">4 семестр</p>
+            <div class="col-xl-3 col-md-6">
+                <div class="d-flex flex-column">
+                    <h5>Информационные технологии</h5>
+                    <div>
+                        <button data-toggle="Modal-" class="prof show-Modal-">Базы данных в радиолокационных системах<br><small class="text-muted">Экзамен</small></button>
+                        <button data-toggle="Modal-2" class="prof show-Modal-2">Технология создания программного продукта<br><small class="text-muted">Зачет</small></button> 
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6">
+                <div class="d-flex flex-column">
+                    <h5>Высшая математика</h5>
+                    <div>
+                        <button data-toggle="Modal-3" class="vmath show-Modal-3"> Алгебра и геометрия<br><small class="text-muted">Экзамен</small></button>
+                        <button data-toggle="Modal-" class="vmath show-Modal-">Дифференциальные уравнения<br><small class="text-muted">Зачет</small></button>
+                        <button data-toggle="Modal-" class="vmath show-Modal-">Комплексный анализ<br><small class="text-muted">Зачет</small></button>
+                        <button data-toggle="Modal-" class="vmath show-Modal-">Методы математического анализа<br><small class="text-muted">Экзамен</small></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6">
+                <div class="d-flex flex-column">
+                    <h5>Общепрофессиональные</h5>
+                    <div>
+                        <button data-toggle="Modal-11" class="otherDIS show-Modal-11">Философия<br><small class="text-muted">Экзамен</small></button>
+                        <button data-toggle="Modal-8" class="otherDIS show-Modal-8">Иностранный язык<br><small class="text-muted">Экзамен</small></button>
+                        <button data-toggle="Modal-9" class="otherDIS show-Modal-9">Физическая культура и спорт<br><small class="text-muted">Зачет</small></button>
+                
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6">
+                <div class="d-flex flex-column">
+                    <h5>Проекты</h5>
+                    <div >
+                        <button data-toggle="Modal-12" class="projects show-Modal-12">Научно-исследовательская работа</button>
+                    </div>
+                </div>
+            </div>
 
 
         </div>    
         
-
-
-
         
-
     </div>
 
     <div class="vegaNavbar">
@@ -389,5 +433,6 @@
     </div>
     
 
+<script src="js/Modal_window.js"></script>    
 </body>
 </html>
